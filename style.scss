@@ -6,6 +6,8 @@
 }
 
 @import "partials/colors";
+@import "partials/header";
+@import "partials/layout";
 
 body {
     font-family: 'Sora', sans-serif;
@@ -13,5 +15,23 @@ body {
     height: 100vh;
     position: relative;
 
-    background-color: $pri;
+    background-color: $primary-normal;
+}
+
+button {
+    font-family: 'Sora', sans-serif;
+    cursor: pointer;
+}
+
+svg {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
 }
